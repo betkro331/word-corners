@@ -1,0 +1,11 @@
+/.DS_Store
+/baseUrl.js
+/cypress.config.js
+/package-lock.json
+/package.json
+/specs
+/sv-main.txt
+/sv-pronouns.txt
+/sv.js
+/_auto-generate-step-definitions.js
+node_modules
