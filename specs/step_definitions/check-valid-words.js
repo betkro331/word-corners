@@ -56,7 +56,7 @@ Then('check if top left box is green', () => {
 });
 
 Then('check if top right box is green', () => {
-  cy.get('.corner.top.left').invoke('attr', 'class').then((className) => {
+  cy.get('.corner.top.right').invoke('attr', 'class').then((className) => {
     if (className.includes('valid')) {
       cy.get('.take-points').eq(1).click(); 
     } else {
